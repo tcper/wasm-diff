@@ -16,7 +16,7 @@ This is a cargo package similar to wasm bind.
 ## 🚴 Usage
 
 ```
-npm install wasm-diff --save
+npm install wasm-similar --save
 ```
 
 ```
