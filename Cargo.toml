@@ -1,6 +1,6 @@
 [package]
-name = "wasm-diff"
-version = "0.1.0"
+name = "wasm-similar"
+version = "0.1.2"
 authors = ["tcper@163.com"]
 edition = "2018"
 

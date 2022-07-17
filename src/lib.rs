@@ -18,14 +18,8 @@ pub struct LineDiff {
 }
 
 #[wasm_bindgen]
-pub fn send_array_to_js(source: &str, target: &str) -> JsValue {
+pub fn compare_from_lines(source: &str, target: &str) -> JsValue {
     let mut list: Vec<LineDiff> = Vec::new();
-    // let line = LineDiff {
-    //     op: String::from("+"),
-    //     text: String::from("ttt")
-    // };
-    
-
     let diff = TextDiff::from_lines(
         source,
         target
