@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><code>Wasm Diff</code></h1>
+  <h1><code>Wasm Similar</code></h1>
 
   <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
 </div>
@@ -17,6 +17,13 @@ This is a cargo package similar to wasm bind.
 
 ```
 npm install wasm-diff --save
+```
+
+```
+import * as wasm from 'wasm-similar';
+
+const list = wasm.compare_from_chars(source, target);
+
 ```
 
 ### 🐑 Use `cargo generate` to Clone this Template
